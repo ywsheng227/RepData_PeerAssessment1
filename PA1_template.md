@@ -135,6 +135,8 @@ Note that there are a number of days/intervals where there are missing values (c
 ## [1] 10766.19
 ```
 
+The strategy is to use the mean for the 5-minute interval of each missing step value. A new dataset is created.
+
 Conclusion: The values from the new dataset with missing values filled in are similar to the estimates from the first part of the assignment. 
 
 ## Are there differences in activity patterns between weekdays and weekends?
